@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.margem{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.alto{
+	height: 200px;
+}
+
+.fundo{
+	background-color: #FDBD58;
+}
+.meio{
+	margin: auto;
+	width: 25%;
+}
+
+.flu{
+	float: right;
+}
+
+iframe{ 
+   max-width:  100%;
+}

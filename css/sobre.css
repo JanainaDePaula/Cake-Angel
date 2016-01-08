@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+section.fotos{
+	float: right;
+}
+
+.borda{
+	border: 1px solid black;
+}
+
+ul.lista li figure{
+	margin-top: 5%;
+}

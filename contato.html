@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Cake Angel | Contato</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+  <link rel="stylesheet" type="text/css" href="css/contato.css">
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!--topo do site-->
+    <header class="container-fluid back">
+      <div class="container">
+        <a href="index.html"><img src="img/geral/ca-logo.png" class="img-responsive"/></a>
+      </div>
+      <nav class="tam">
+        <ul class="list-unstyled list-inline espaco">
+          <li><a href="index.html" class="cor fonte">Home</a></li>
+          <li><a href="produtos.html" class="cor fonte">Produtos</a></li>
+          <li><a href="sobre.html" class="cor fonte">Sobre</a></li>
+          <li><a href="contato.html" class="cor fonte">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <figure class="emcima">
+      <img src="img/sobre/contato.jpg" alt="Doces"/>
+    </figure>
+   <!--Section que contém o formulário, o título e o texto-->
+    <section class="container">
+      <h1 class="text-center page-header fonte">Contato</h1>
+      <p class="text-center mg fonte">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices mi eget est varius luctus.</p> 
+      <p class="text-center fonte">Praesent vitae ligula auctor sapien malesuada accumsan. Suspendisse mi ex, commodo quis 
+      vestibulum quis, consectetur ultricies enim.</p> 
+      <p class="text-center fonte">Morbi non mauris a libero interdum bibendum in id 
+      purus. Sed elit ex, imperdiet nec blandit nec, fermentum vitae neque.</p>
+     <!--Formulário-->
+      <form method="post" role="form">
+        <section class="col-sm-6 cont fonte">
+       
+      	<!--Campo Nome-->
+        <p>
+          <label for="cName">Nome:</label><br/>
+          <input type="text" name="tName" id="cName" placeholder="Nome completo" required class="form-control input-lg"/>
+        </p>
+        <!--Campo Email-->
+        <p>
+          <label for="cMail">Email:</label><br/>
+          <input type="text" name="tMail" id="cMail" placeholder="exemplo@exemplo.com" required class="form-control input-lg"/>
+        </p>
+        <!--Campo telefone-->
+        <p>
+          <label for="cTel">Telefone:</label><br/>
+          <input type="number" name="tTel" id="cTel" placeholder="(DDD)11111-1111" required class="form-control input-lg"/>
+        </p>
+        <!--Campo produto-->
+        <p>
+          <label for="cProd">Produtos:</label><br/>
+          <select name="tProd" id="cProd" class="form-control input-lg">
+          	<option value="bolo">Bolos</option>
+          	<option value="cup">Cupcakes</option>
+          	<option value="ds">Doces e sobremesas</option>
+
+          </select>
+        </p>
+        </section>
+
+        <section class="col-sm-6 cont fonte">
+        <!--Campo de Mensagem-->
+        <p>
+          <label for="cMsg">Mensagem:</label><br/>
+          <textarea name="tMsg" id="cMsg" cols="35" rows="11" placeholder="Nos diga o que deseja" class="form-control"></textarea>
+        </p>
+        <!--Botão-->
+        <input type="reset" name="tLimp" id="cLimp" value="Limpar" class="btn btn-default"/>
+        <input type="submit" name="tEnviar" id="cEnviar" value="Enviar" class="btn btn-default flu"/>
+       </section>
+      </form>
+    </section>
+
+    <!--Section onde está o endereço, as redes sociais e o iframe com o mapa-->
+    <section class="container-fluid cont fundo fonte">
+      <!--Section do endereço das redes sociais-->
+      <section class="col-sm-4 fundo margem alto">
+        <h4 class="cor text-center">Onde Estamos</h4>
+      <address class="cor text-center">
+        Rua Doutor Antônio bento, 353 <br/>
+        Santo Amaro, São Paulo-SP<br/>
+        02222-222
+      </address>
+      <h4 class="cor text-center">Redes Sociais</h4>
+      <ul class="list-unstyled list-inline center-block meio">
+        <li><a href="#"><img src="img/geral/facebook.png"></a></li>
+        <li><a href="#"><img src="img/geral/twitter.png"></a></li>
+      </ul>
+      </section>
+      <!--iframe do mapa-->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.771899491605!2d-46.704514438027594!3d-23.64833855474704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50f8b09962c9%3A0xec9ce58fa96b7cea!2sR.+Dr.+Ant%C3%B4nio+Bento%2C+353+-+Santo+Amaro%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1447777251816" width="900" height="200" frameborder="0" style="border:0" allowfullscreen class="margem col-sm-8 fundo borda"></iframe>
+    </section>
+<!---->
+    <!--rodapédo site-->
+    <footer class="container-fluid back fonte">
+      <div class="container">
+        <p class="text-right pull-right cor topo">Desenvolvido por <a href="#" class="cor">Janaina de Paula</a></p>
+        <p class="cor topo">&copy 2015 Cake Angel</p>
+      </div>
+    </footer>
+</body>
+</html>

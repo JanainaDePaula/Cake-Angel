@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*Espaço entre as sections*/
+/*Espaço maior*/
+.cont{
+	margin-top: 6%;
+}
+/*Espaço menor*/
+.contm{
+	margin-top: 2%;
+}
+/*Margem dada para centralizar os botões*/
+.botao{
+	margin-left: 33%;
+
+}
+
+.mar {
+	top: 0;
+}
