@@ -3,6 +3,8 @@
 <head>
 	<title>Cake Angel | Contato</title>
 	<meta charset="utf-8"/>
+  <link rel="sortcut icon" type="image/x-icon" href="img/geral/favicon.ico"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
   <link rel="stylesheet" type="text/css" href="css/contato.css">
 	<!--Bootstrap-->
@@ -37,7 +39,7 @@
       <p class="text-center fonte">Morbi non mauris a libero interdum bibendum in id 
       purus. Sed elit ex, imperdiet nec blandit nec, fermentum vitae neque.</p>
      <!--Formulário-->
-      <form method="post" role="form">
+      <form method="post" role="form" action="form.php">
         <section class="col-sm-6 cont fonte">
        
       	<!--Campo Nome-->
@@ -53,7 +55,7 @@
         <!--Campo telefone-->
         <p>
           <label for="cTel">Telefone:</label><br/>
-          <input type="number" name="tTel" id="cTel" placeholder="(DDD)11111-1111" required class="form-control input-lg"/>
+          <input type="text" name="tTel" id="cTel" placeholder="(DDD)11111-1111" required class="form-control input-lg"/>
         </p>
         <!--Campo produto-->
         <p>
@@ -123,7 +125,7 @@
     <!--rodapédo site-->
     <footer class="container-fluid back fonte">
       <div class="container">
-        <p class="text-right pull-right cor topo">Desenvolvido por <a href="#" class="cor">Janaina de Paula</a></p>
+        <p class="text-right pull-right cor topo">Desenvolvido por <a href="http://www.janainadesigner.com.br" class="cor">Janaina de Paula</a></p>
         <p class="cor topo">&copy 2015 Cake Angel</p>
       </div>
     </footer>
