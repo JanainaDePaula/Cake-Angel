@@ -20,10 +20,10 @@
     $produto = $_POST["tProd"];
     $msg = $_POST["tMsg"];
 
-    $host = "localhost";
-	$user = "root";
-	$pass = "";
-	$banco = "pedido";
+    $host = "mysql.hostinger.com.br";
+	$user = "u815276166_ca";
+	$pass = "parte180608";
+	$banco = "u815276166_pedi";
 
 	// Create connection
 	$conn = mysqli_connect($host, $user, $pass, $banco);
